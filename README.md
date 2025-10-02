@@ -34,7 +34,7 @@ After creating your configuration, you can lint some files like so:
 ```sh
 $ htmllint index.html
 # also supports glob expansions
-$ htmllint **/*.html
+$ htmllint "**/*.html"
 $ htmllint # by default expands to **/*.html
 
 $ htmllint --help # to get more information
